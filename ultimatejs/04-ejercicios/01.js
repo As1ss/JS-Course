@@ -1,3 +1,8 @@
+/*
+Obtener el número mayor 
+*/
+
+
 function obtenerNumMayor(a,b){
     if(a>b){
         return a;
