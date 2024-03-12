@@ -31,6 +31,7 @@ console.log("---------------------------------");
 
 //El método Object.entries(objeto) devuelve una matriz (array de arrays) con clave y valor de los atributos.
 
+console.log(Object.entries(empleado));
 for(llave of Object.entries(empleado)){
     console.log(llave); // [["id",1],["nombre","Joaquin"],["edad",25],["accion",f]]
 }
